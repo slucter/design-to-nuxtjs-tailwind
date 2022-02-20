@@ -680,7 +680,11 @@
             fetchData () {
                 setTimeout(async () => {
                     try {
-                        this.products = (await this.$axios.$get('/products.json')).datas
+                        this.products = (await this.$axios.$get('/products.json', {
+                            headers: {
+                                "Access-Control-Allow-Origin": "*",
+                            }
+                        })).datas
                     } catch (error) {
                         alert(error)
                     }

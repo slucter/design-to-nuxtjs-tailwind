@@ -1,5 +1,7 @@
 <template>
-  <Tutorial/>
+  <div>
+    Hellowold
+  </div>
 </template>
 
 <script>

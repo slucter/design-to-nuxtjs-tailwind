@@ -72,7 +72,11 @@ export default {
             }),
         async userCheck () {
             try {
-                let user = await this.$axios.$get('/user.json')
+                let user = await this.$axios.$get('/user.json', {
+                    headers: {
+                        "Access-Control-Allow-Origin": "*",
+                    }
+                })
 
                 if (user.email !== this.form.email) {
                     this.CHANGE_MAIL_VERIF(this.form.email)
