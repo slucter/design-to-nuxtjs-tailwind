@@ -40,6 +40,12 @@
 
 Hasil dari convert design figma ke WebApp Nuxt Js, Poolapack.com
 
+## DEMO DEPLOY PAGE
+
+* [LOGIN / AUTH PAGE](https://silly-booth-f5a990.netlify.app/login)
+* [PRODUK DETAIL PAGE](https://silly-booth-f5a990.netlify.app/produk/detail/1)
+* [CART PAGE](https://silly-booth-f5a990.netlify.app/cart)
+
 ### Built With
 
 * [VueJs](https://vue.org/)
