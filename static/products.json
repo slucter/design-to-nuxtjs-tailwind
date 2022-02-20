@@ -1,0 +1,312 @@
+{
+    "datas": [
+      {
+        "id": 0,
+        "title": "Poly PE 0 VMS L158 100 / 70",
+        "thumbnail": "https://unsplash.it/640/425",
+        "images": [
+          "link1",
+          "link1",
+          "link1",
+          "link1",
+          "link1"
+        ],
+        "product_info": {
+          "from": "Kab. Bandung",
+          "price": 100
+        },
+        "detail": [
+          {
+            "row": "Gramasi",
+            "value": 100
+          },
+          {
+            "row": "Lebar Kain",
+            "value": 150
+          },
+          {
+            "row": "Bahan",
+            "value": "100% Cotton"
+          },
+          {
+            "row": "Teknik",
+            "value": "Lembut, tahan lama, tidak mudah berkerut"
+          },
+          {
+            "row": "Karakter",
+            "value": "Fashion"
+          }
+        ],
+        "description": "Lorem ipsum dolor sit amet .... ",
+        "store": {
+          "name": "Bahtera Bara 0",
+          "location": "Kab. Bandung",
+          "verified": true
+        }
+      },
+      {
+        "id": 5,
+        "title": "Poly PE 2 VMS L158 100 / 70",
+        "thumbnail": "https://unsplash.it/640/425",
+        "images": [
+          "link1",
+          "link1",
+          "link1",
+          "link1",
+          "link1"
+        ],
+        "product_info": {
+          "from": "Kab. Bandung",
+          "price": 100
+        },
+        "detail": [
+          {
+            "row": "Gramasi",
+            "value": 100
+          },
+          {
+            "row": "Lebar Kain",
+            "value": 150
+          },
+          {
+            "row": "Bahan",
+            "value": "100% Cotton"
+          },
+          {
+            "row": "Teknik",
+            "value": "Lembut, tahan lama, tidak mudah berkerut"
+          },
+          {
+            "row": "Karakter",
+            "value": "Fashion"
+          }
+        ],
+        "description": "Lorem ipsum dolor sit amet .... ",
+        "store": {
+          "name": "Bahtera Bara 1",
+          "location": "Kab. Bandung",
+          "verified": true
+        }
+      },
+      {
+        "id": 10,
+        "title": "Poly PE 4 VMS L158 100 / 70",
+        "thumbnail": "https://unsplash.it/640/425",
+        "images": [
+          "link1",
+          "link1",
+          "link1",
+          "link1",
+          "link1"
+        ],
+        "product_info": {
+          "from": "Kab. Bandung",
+          "price": 100
+        },
+        "detail": [
+          {
+            "row": "Gramasi",
+            "value": 100
+          },
+          {
+            "row": "Lebar Kain",
+            "value": 150
+          },
+          {
+            "row": "Bahan",
+            "value": "100% Cotton"
+          },
+          {
+            "row": "Teknik",
+            "value": "Lembut, tahan lama, tidak mudah berkerut"
+          },
+          {
+            "row": "Karakter",
+            "value": "Fashion"
+          }
+        ],
+        "description": "Lorem ipsum dolor sit amet .... ",
+        "store": {
+          "name": "Bahtera Bara 2",
+          "location": "Kab. Bandung",
+          "verified": true
+        }
+      },
+      {
+        "id": 15,
+        "title": "Poly PE 6 VMS L158 100 / 70",
+        "thumbnail": "https://unsplash.it/640/425",
+        "images": [
+          "link1",
+          "link1",
+          "link1",
+          "link1",
+          "link1"
+        ],
+        "product_info": {
+          "from": "Kab. Bandung",
+          "price": 100
+        },
+        "detail": [
+          {
+            "row": "Gramasi",
+            "value": 100
+          },
+          {
+            "row": "Lebar Kain",
+            "value": 150
+          },
+          {
+            "row": "Bahan",
+            "value": "100% Cotton"
+          },
+          {
+            "row": "Teknik",
+            "value": "Lembut, tahan lama, tidak mudah berkerut"
+          },
+          {
+            "row": "Karakter",
+            "value": "Fashion"
+          }
+        ],
+        "description": "Lorem ipsum dolor sit amet .... ",
+        "store": {
+          "name": "Bahtera Bara 3",
+          "location": "Kab. Bandung",
+          "verified": true
+        }
+      },
+      {
+        "id": 20,
+        "title": "Poly PE 8 VMS L158 100 / 70",
+        "thumbnail": "https://unsplash.it/640/425",
+        "images": [
+          "link1",
+          "link1",
+          "link1",
+          "link1",
+          "link1"
+        ],
+        "product_info": {
+          "from": "Kab. Bandung",
+          "price": 100
+        },
+        "detail": [
+          {
+            "row": "Gramasi",
+            "value": 100
+          },
+          {
+            "row": "Lebar Kain",
+            "value": 150
+          },
+          {
+            "row": "Bahan",
+            "value": "100% Cotton"
+          },
+          {
+            "row": "Teknik",
+            "value": "Lembut, tahan lama, tidak mudah berkerut"
+          },
+          {
+            "row": "Karakter",
+            "value": "Fashion"
+          }
+        ],
+        "description": "Lorem ipsum dolor sit amet .... ",
+        "store": {
+          "name": "Bahtera Bara 4",
+          "location": "Kab. Bandung",
+          "verified": true
+        }
+      },
+      {
+        "id": 25,
+        "title": "Poly PE 10 VMS L158 100 / 70",
+        "thumbnail": "https://unsplash.it/640/425",
+        "images": [
+          "link1",
+          "link1",
+          "link1",
+          "link1",
+          "link1"
+        ],
+        "product_info": {
+          "from": "Kab. Bandung",
+          "price": 100
+        },
+        "detail": [
+          {
+            "row": "Gramasi",
+            "value": 100
+          },
+          {
+            "row": "Lebar Kain",
+            "value": 150
+          },
+          {
+            "row": "Bahan",
+            "value": "100% Cotton"
+          },
+          {
+            "row": "Teknik",
+            "value": "Lembut, tahan lama, tidak mudah berkerut"
+          },
+          {
+            "row": "Karakter",
+            "value": "Fashion"
+          }
+        ],
+        "description": "Lorem ipsum dolor sit amet .... ",
+        "store": {
+          "name": "Bahtera Bara 5",
+          "location": "Kab. Bandung",
+          "verified": true
+        }
+      },
+      {
+        "id": 30,
+        "title": "Poly PE 12 VMS L158 100 / 70",
+        "thumbnail": "https://unsplash.it/640/425",
+        "images": [
+          "link1",
+          "link1",
+          "link1",
+          "link1",
+          "link1"
+        ],
+        "product_info": {
+          "from": "Kab. Bandung",
+          "price": 100
+        },
+        "detail": [
+          {
+            "row": "Gramasi",
+            "value": 100
+          },
+          {
+            "row": "Lebar Kain",
+            "value": 150
+          },
+          {
+            "row": "Bahan",
+            "value": "100% Cotton"
+          },
+          {
+            "row": "Teknik",
+            "value": "Lembut, tahan lama, tidak mudah berkerut"
+          },
+          {
+            "row": "Karakter",
+            "value": "Fashion"
+          }
+        ],
+        "description": "Lorem ipsum dolor sit amet .... ",
+        "store": {
+          "name": "Bahtera Bara 6",
+          "location": "Kab. Bandung",
+          "verified": true
+        }
+      }
+    ]
+  }

@@ -1,0 +1,48 @@
+.pl-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.pl-left-delim::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    width: 1px;
+    height: 100%;
+    background: rgb(53, 53, 53);
+}
+.pl-text-coret::before {
+    content: '';
+    width: 100%;
+    height: 1px;
+    background: red;
+    position: absolute;
+    top: 50%;
+    transform: rotate(-9deg);
+}
+.remove-last-border-b:last-child {
+    border: none;
+}
+.text-xxs {
+    font-size: 7px !important;
+}
+
+.opacity-enter-active,
+.opacity-leave-active {
+    transition: opacity .5s;
+}
+
+.opacity-enter, 
+.opacity-leave-to {
+    opacity: 0;
+}
+
+.fadeY-enter-active {
+    transition: all .3s ease;
+}
+.fadeY-leave-active {
+    transition: all .5s;
+}
+.fadeY-enter, .fadeY-leave-to {
+    transform: translateY(100px);
+    opacity: 0;
+}
