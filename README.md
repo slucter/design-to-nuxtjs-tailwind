@@ -1,69 +1,96 @@
-# poolapack
+<p align="center">
 
-## Build Setup
+  <h3 align="center">&copy; Poolapack.com</h3>
+  <p align="center">
+    <image align="center" width="200" src='./assets/img/logo2.png' />
+  </p>
 
-```bash
-# install dependencies
-$ npm install
+  <p align="center">
+    <br />
+    <a href="https://gitlab.com/irhash/irhash085523509300"><strong>Explore the docs »</strong></a>
+    <br />
+    <br />
+    <a href="http://localhost:3000//">View Demo</a>
+    ·
+    <a href="https://gitlab.com/irhash/irhash085523509300/issues">Report Bug</a>
+    ·
+    <a href="https://gitlab.com/irhash/irhash085523509300/issues">Request Feature</a>
+  </p>
+</p>
 
-# serve with hot reload at localhost:3000
-$ npm run dev
 
-# build for production and launch server
-$ npm run build
-$ npm run start
 
-# generate static project
-$ npm run generate
+<!-- TABLE OF CONTENTS -->
+## Table of Contents
+
+* [About the Project](#about-the-project)
+  * [Built With](#built-with)
+* [Getting Started](#getting-started)
+  * [Prerequisites](#prerequisites)
+  * [Installation](#installation)
+* [Screenshots](#screenshots)
+* [Related Project](#related-project-backend)
+* [Contact](#contact)
+
+
+
+<!-- ABOUT THE PROJECT -->
+## About The Project
+
+
+Hasil dari convert design figma ke WebApp Nuxt Js, Poolapack.com
+
+### Built With
+
+* [VueJs](https://vue.org/)
+* [Tailwind css, NuxtJs]
+
+
+<!-- GETTING STARTED -->
+## Getting Started
+
+### Prerequisites
+
+This is an example of how to list things you need to use the software and how to install them.
+
+* [nodejs](https://nodejs.org/en/download/)
+
+### Installation
+
+1. Clone the repo
+```sh
+git clone https://gitlab.com/irhash/irhash085523509300.git
+```
+2. Install NPM packages
+```sh
+npm install
+```
+3. Run Project
+```sh
+npm run dev
 ```
 
-For detailed explanation on how things work, check out the [documentation](https://nuxtjs.org).
-
-## Special Directories
-
-You can create the following extra directories, some of which have special behaviors. Only `pages` is required; you can delete them if you don't want to use their functionality.
-
-### `assets`
-
-The assets directory contains your uncompiled assets such as Stylus or Sass files, images, or fonts.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/assets).
-
-### `components`
-
-The components directory contains your Vue.js components. Components make up the different parts of your page and can be reused and imported into your pages, layouts and even other components.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/components).
-
-### `layouts`
-
-Layouts are a great help when you want to change the look and feel of your Nuxt app, whether you want to include a sidebar or have distinct layouts for mobile and desktop.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/layouts).
 
 
-### `pages`
+<!-- ROADMAP -->
+<!-- CONTRIBUTING -->
+## Contributing
 
-This directory contains your application views and routes. Nuxt will read all the `*.vue` files inside this directory and setup Vue Router automatically.
+Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/get-started/routing).
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
 
-### `plugins`
 
-The plugins directory contains JavaScript plugins that you want to run before instantiating the root Vue.js Application. This is the place to add Vue plugins and to inject functions or constants. Every time you need to use `Vue.use()`, you should create a file in `plugins/` and add its path to plugins in `nuxt.config.js`.
 
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/plugins).
+<!-- CONTACT -->
+## Contact
 
-### `static`
+My Email : mad.irhashdianto@gmail.com
 
-This directory contains your static files. Each file inside this directory is mapped to `/`.
+Project Link: [https://gitlab.com/irhash/irhash085523509300](https://gitlab.com/irhash/irhash085523509300)
 
-Example: `/static/robots.txt` is mapped as `/robots.txt`.
 
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/static).
-
-### `store`
-
-This directory contains your Vuex store files. Creating a file in this directory automatically activates Vuex.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/store).
