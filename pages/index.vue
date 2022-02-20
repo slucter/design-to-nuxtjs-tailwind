@@ -6,6 +6,9 @@
 
 <script>
 export default {
-  name: 'IndexPage'
+  name: 'IndexPage',
+  mounted () {
+    this.$router.push('/produk/detail/1')
+  }
 }
 </script>

@@ -64,7 +64,7 @@
                             </button>
                         </div>
                     </div>
-                    <div class="flex items-center">
+                    <div class="flex items-center" @click="toCart">
                         <svg width="49" height="49" viewBox="0 0 49 49" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M4.5 4.04437H7.98001C10.14 4.04437 11.84 5.90437 11.66 8.04437L10 27.9644C9.72 31.2244 12.3 34.0244 15.58 34.0244H36.88C39.76 34.0244 42.28 31.6644 42.5 28.8044L43.58 13.8044C43.82 10.4844 41.3 7.78436 37.96 7.78436H12.14" stroke="#383535" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
                             <path d="M33 44.0444C34.3807 44.0444 35.5 42.9251 35.5 41.5444C35.5 40.1637 34.3807 39.0444 33 39.0444C31.6193 39.0444 30.5 40.1637 30.5 41.5444C30.5 42.9251 31.6193 44.0444 33 44.0444Z" stroke="#383535" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
@@ -87,6 +87,11 @@
 
 <script>
     export default {
-        name: 'Navbar Main'
+        name: 'Navbar Main',
+        methods : {
+            toCart () {
+                this.$router.push('/cart')
+            },
+        }
     }
 </script>
