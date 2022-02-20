@@ -14,7 +14,7 @@
                 type="email"
                 name="email"
                 id="email"
-                placeholder="Masukan Email"
+                placeholder="--> Email Demo : dev@mail.com"
                 label="Email"
                 v-model="form.email"
             />
@@ -62,6 +62,9 @@ export default {
             return val ? 'Masuk' : 'Selanjutnya'
         }
     },
+    mounted () {
+        localStorage.removeItem('authenticated')
+    },
     methods: {
         ...mapMutations(
             {
@@ -69,6 +72,7 @@ export default {
                 CHANGE_IS_LOADING: 'stores/CHANGE_IS_LOADING',
                 CHANGE_MAIL_VERIF: 'stores/CHANGE_MAIL_VERIF',
                 CHANGE_IS_FORGOT: 'stores/CHANGE_IS_FORGOT',
+                CHANGE_AUTHENTICATE: 'auth/CHANGE_AUTHENTICATE'
             }),
         async userCheck () {
             try {
@@ -84,14 +88,15 @@ export default {
                     return
                 }
                 if (this.next) {
-                    if (user.password !== this.form.password) {
-                        throw '_error2'
-                        return
-                    }
+                    // if (user.password !== this.form.password) {
+                    //     throw '_error2'
+                    //     return
+                    // }
 
                     this.CHANGE_IS_LOADING(true)
                     this.validUser = true
-
+                    localStorage.setItem('authenticated', true)
+                    this.CHANGE_AUTHENTICATE(true)
                     return
                 }
                 this.next = true
@@ -105,7 +110,12 @@ export default {
                 setTimeout(() => {
                     this.CHANGE_IS_LOADING(false)
                     if (this.validUser) {
-                        this.$router.push('/produk/detail/1')
+                        const pathRedirect = this.$route.query.redirect
+                        if (pathRedirect) {
+                            this.$router.push(pathRedirect)
+                        } else {
+                            this.$router.push('/produk/detail/1')
+                        }
                     }
                 }, 3000)
             }
